@@ -16,7 +16,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        
         <Header />
+        
         <ThingList things={this.state.things} />
       </div>
     );

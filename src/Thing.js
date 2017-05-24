@@ -14,6 +14,9 @@ const Thing = ({ thing }) => {
           <button className="remove">
             <i className="fa fa-trash-o"></i>
           </button>
+          <button className="add">
+            <i className="fa fa-rocket"></i>
+          </button>
         </span>
       </div>
     </li>
