@@ -1,3 +1,15 @@
+.actions {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 0;
+  margin: -10px 0;
+}
+
+.Thing:hover .actions {
+  opacity: 1;
+}
+
 .actions button {
   border: 0;
   background: transparent;
